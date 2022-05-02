@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "../css/Board.css";
-import "./Note.js";
+import Note from "./Note";
 
 class Board extends Component {
   constructor() {
@@ -12,6 +12,8 @@ class Board extends Component {
       <div>
         <div className="div-board">
           <div className="row">
+            <Note />
+            <Note />
             <Note />
           </div>
         </div>
